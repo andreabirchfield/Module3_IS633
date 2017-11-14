@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 3</title>
+    <link rel="stylesheet" type="text/css" href="styles/assignment3.css"/>
+    <script src="js/assignment3.js"></script>    
+</head>
+
+<body>
+    
+<section id="title">
+    <h1> Andrea Birchfield Module 3</h1>
+    <hr>
+    <select onchange="MenuChoice(value);" id="menu">
+        <option value= "None"> Please select an option</option>
+        <option value= "cslist"> List of Customers </option>
+        <option value= "cshist"> Customer Order History </option>
+        <option value= "update"> Update Information </option>
+    </select>
+</section>
+
+<hr>
+<section id="custlist">
+    <h2>Customer List</h2>
+    <p id="listcust"> Customer List</p>
+</section>
+
+<section id="custhist">
+    <h2> Customer Order History </h2>
+    <section id="history" class="history">
+   
+   
+   <div id="enterstore">
+   <label id="enterstore">Please Enter Customer ID:</label>
+   <input type="text" id="stname">
+   
+
+
+ 
+<input type= button id= "orderhistory" name= "Submit" value= "Submit" onclick= "Orders1();">
+
+ </div>
+
+  </section>
+  
+<label id= "sec2"></label>
+    
+</section>
+
+<section id="testb">
+    <button onclick="goBack();">Go Back</button>
+   
+</section>
+
+<section id= "updatestore">
+    <h3>Store Update</h3>
+  <hr>
+  <label> Order ID: </label>
+  <input id="orderID" disabled="true">
+  <br>
+  <label> Shipping Address </label>
+    <input type="text" id="shipadd">
+    <br>
+    <label>Shipping City</label>
+    <input type="text" id="shipcity">
+    <br>
+    <label> Shipping Name</label>
+     <input type="text" id="shipname">
+     <br>
+     <label>Shipping Post Code</label>
+     <input type="text" id="shippost">
+     <br>
+     <button onclick="StoreUpdate()"> Update Information </button>
+</section>
+
+
+</body>
+</html>
