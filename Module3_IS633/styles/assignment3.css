@@ -1,0 +1,7 @@
+
+#custlist { visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;  }
+#custhist{ visibility: hidden; position: absolute;  height: 600px; width: 600px; overflow: scroll;}
+#updatestore{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;}
+#testb{text-align: center; position: absolute; left: 200px;top: 800px;}
+.tablecenter tr:nth-child(odd){background-color: #dfe7f2;color: #000000;}
+h1{text-align: center; font-family: cursive;}
